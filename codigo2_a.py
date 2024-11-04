@@ -11,17 +11,4 @@ def area_retangulo(largura, altura):
         return "Erro: largura e altura devem ser não-negativos."
     return largura * altura
 
-def soma (a,b):
-    return a + b
 
-def subtracao(a,b):
-    return a - b
-
-def multiplicacao(a,b):
-    return a * b
-
-def divisao(a,b):
-    if(b == 0):
-        return "não é possivel dividir"
-    else:
-        return a / b

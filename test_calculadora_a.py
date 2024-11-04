@@ -26,3 +26,8 @@ def test_divisao_():
     assert divisao(3,3) == 1
     assert divisao(8,0) == "não é possivel dividir"
 
+def test_dividir_4_por_2_resulatdo_2():
+    assert divisao (4,2) == 2
+
+def test_divisao_por_zero():
+    assert dividir (4,0) == "não é possivel dividir"
